@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+
 import TodoFooter from '../TodoFooter';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -51,3 +52,4 @@ describe("TodoFooter", () => {
 //     const paragraphElement = screen.getByTestId("para")
 //     expect(paragraphElement.textContent).toBe("1 task left")
 //   });
+
