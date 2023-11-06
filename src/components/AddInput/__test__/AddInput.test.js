@@ -24,3 +24,4 @@ describe("AddInput", () => {
     expect(inputElement.value).toBe("")
   });
 })
+
